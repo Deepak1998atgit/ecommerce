@@ -11,7 +11,14 @@ This is an e-commerce application where users can perform various actions relate
 - **Cart Management:** Users can add products to their cart, view the contents of their cart, update the quantity of items in the cart, remove individual items  and remove the entire cart.
 
 ## Folder Structure
-### Controllers
+### controllers     
+
+- **Auth Controller:** Responsible for handling user authentication functionalities such as user registration, login, logout, and authentication middleware.
+
+- **Cart Controller:** Manages operations related to the user's shopping cart, including adding items to the cart, updating item quantities, removing items, and retrieving cart contents.
+
+- **Product Controller:** Handles product-related operations such as listing products, adding new products, updating product details, and deleting products from the inventory.
+
 
 ## Implemented Functionality
 
