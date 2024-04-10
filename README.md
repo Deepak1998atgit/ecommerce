@@ -33,9 +33,9 @@ This is an e-commerce application where users can perform various actions relate
 ## Technologies Used
 
 
-- **Backend:** (NODE JS)
-- **Database:** (MONGODB)
-- **Authentication:** (JWT)
+- **Backend:** NODE JS
+- **Database:** MONGODB
+- **Authentication:** JWT
 
 ## Setup Instructions
 
