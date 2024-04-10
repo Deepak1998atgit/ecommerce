@@ -1,0 +1,6 @@
+{
+    "watch": [ "models", "middlewares", "controllers","models"],
+    "ext": "ts",
+    "exec": "ts-node ./Server.ts"
+}
+  

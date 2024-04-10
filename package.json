@@ -1,0 +1,35 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "E-Commerce Project Built On NODE JS",
+  "main": "Server.ts",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Deepak V S",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "@types/express-session": "^1.18.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  }
+}
