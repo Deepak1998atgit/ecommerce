@@ -11,13 +11,40 @@ This is an e-commerce application where users can perform various actions relate
 - **Cart Management:** Users can add products to their cart, view the contents of their cart, update the quantity of items in the cart, remove individual items  and remove the entire cart.
 
 ## Folder Structure
-### controllers     
 
-- **Auth Controller:** Responsible for handling user authentication functionalities such as user registration, login, logout, and authentication middleware.
+### models
+- **User:** Defines the schema for user accounts, including fields like firstName, email, password (hashed),mobile, and date of registration.
+
+- **Cart:** Defines the schema for the user's shopping cart, including the user ID, cart items with quantity, total price, and date added.
+
+- **Product:** Represents the schema for products available in the e-commerce platform, including fields such as name, description, price, images, rating, and date added.
+  
+### controllers     
+- **Auth-Controller:** Responsible for handling user authentication functionalities such as user registration, login, logout.
 
 - **Cart Controller:** Manages operations related to the user's shopping cart, including adding items to the cart, updating item quantities, removing items, and retrieving cart contents.
 
 - **Product Controller:** Handles product-related operations such as listing products, adding new products, updating product details, and deleting products from the inventory.
+
+### routes
+- **Auth-Routes:** Handles authentication-related endpoints such as user registration, login, logout.
+
+- **Cart-Routes:** Manages endpoints related to the user's shopping cart, including adding items, updating quantities, removing items, and retrieving cart contents.
+
+- **Product-Routes:** Handles operations related to products in the e-commerce platform, including listing products, adding new products, updating product details, and deleting products.
+   
+### config
+-  files responsible for managing HTTP status codes, configuration keys, and MongoDB database connection settings.
+
+### middleware
+-  middleware functions responsible for verifying authentication tokens.
+
+### types
+-  TypeScript interfaces defining the User data structures.
+
+### utils
+-   This includes a custom AppError class, which is used to generate consistent error messages and handle errors uniformly throughout the application.
+
 
 
 ## Implemented Functionality
