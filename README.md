@@ -10,6 +10,9 @@ This is an e-commerce application where users can perform various actions relate
 
 - **Cart Management:** Users can add products to their cart, view the contents of their cart, update the quantity of items in the cart, remove individual items  and remove the entire cart.
 
+## Folder Structure
+###Controllers
+
 ## Implemented Functionality
 
 - **User Authentication:**
